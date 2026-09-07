@@ -13,4 +13,4 @@
 `arnur0921-debug.github.io`
 
 Сайт:
-https://arnur0921-debug.github.io/
+ https://github.com/arnur0921-debug/MePage.git
