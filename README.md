@@ -1,16 +1,19 @@
 # Arnur Shermatov Portfolio
 
-Обновлённый сайт-визитка для GitHub Pages.
+Обновлённая версия сайта-визитки.
 
-## Изменения
-- Добавлен проект Endless Runner 2D
-- Добавлена ссылка на GitHub-репозиторий
-- Обновлено описание Unity-направления
+## Проекты на сайте
 
-## Публикация
-Загрузи содержимое архива в корень репозитория:
+- Fast Biometric Face Search
+- VLanConnection
+- Endless Runner 2D
+- SDP Project
+- MePage
 
-`arnur0921-debug.github.io`
+## GitHub Pages
 
-Сайт:
-https://arnur0921-debug.github.io/MePage/
+Репозиторий сайта:
+`arnur0921-debug/MePage`
+
+После включения GitHub Pages сайт доступен по адресу:
+`https://arnur0921-debug.github.io/MePage/`
