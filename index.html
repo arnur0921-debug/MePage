@@ -9,6 +9,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .projects-grid {
+      align-items: stretch;
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .project-card .tags {
+      margin-top: auto;
+      padding-top: 22px;
+    }
+
+    @media (min-width: 651px) {
+      .projects-grid .project-card:not(.featured):last-child {
+        grid-column: 1 / -1;
+      }
+    }
+  </style>
+
 </head>
 <body>
   <header class="topbar">
@@ -168,6 +192,8 @@
               <span>Java</span><span>JavaFX</span><span>OOP</span><span>Design Patterns</span>
             </div>
           </article>
+
+          
         </div>
       </div>
     </section>
