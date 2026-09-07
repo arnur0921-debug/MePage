@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Арнура Шерматова — Software Developer, Python, C#, AI, Computer Vision, Unity.">
+  <title>Arnur Shermatov — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#home" class="logo">AS.</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#skills">Навыки</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Открыть меню">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-text">
+        <span class="eyebrow">SOFTWARE DEVELOPER</span>
+        <h1>Шерматов Арнур</h1>
+        <p class="hero-subtitle">Junior Software Developer · Python · C# · AI / Computer Vision · Unity</p>
+        <p class="hero-description">
+          Выпускник Astana IT University по Software Engineering.
+          Разрабатываю backend-приложения, AI / Computer Vision системы
+          и игровые прототипы на Unity.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Посмотреть проекты</a>
+          <a class="btn secondary" href="assets/Arnur_Shermatov_CV.docx" download>Скачать CV</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/arnur0921-debug" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/arnur-shermatov-36977440b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:arnur0921@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="photo-glow"></div>
+        <img src="assets/profile.jpg" alt="Arnur Shermatov" class="hero-photo">
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-kicker">ОБО МНЕ</p>
+        <h2>Коротко</h2>
+        <p class="section-text">
+          Разработчик с интересом к backend, искусственному интеллекту,
+          computer vision и game development. Основным проектом является
+          система быстрого биометрического поиска лиц. Также работал с Java,
+          JavaFX, Unity, Blender и UiPath.
+        </p>
+
+        <div class="facts">
+          <div class="fact"><span class="fact-title">Образование</span><span>Astana IT University</span></div>
+          <div class="fact"><span class="fact-title">Направление</span><span>Software Engineering</span></div>
+          <div class="fact"><span class="fact-title">Локация</span><span>Алматы, Казахстан</span></div>
+          <div class="fact"><span class="fact-title">Английский</span><span>B2</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects">
+      <div class="container">
+        <p class="section-kicker">ПРОЕКТЫ</p>
+        <h2>Что я делал</h2>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-top">
+              <span class="project-label">AI / COMPUTER VISION</span>
+              <a href="https://github.com/arnur0921-debug/Fast-Face-Search-system" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+            <h3>Fast Biometric Face Search</h3>
+            <p>End-to-end система биометрического поиска лиц с backend, desktop-клиентом и векторным поиском.</p>
+            <ul class="project-points">
+              <li>FastAPI backend + PySide6 desktop client</li>
+              <li>PyTorch / ONNX Runtime / OpenCV</li>
+              <li>FAISS: Flat, HNSWFlat, IVF-PQ</li>
+              <li>PostgreSQL / SQLite / SQLAlchemy</li>
+              <li>Масштабирование до 2+ млн биометрических шаблонов</li>
+              <li>LFW verification accuracy: 99.05%</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>FAISS</span><span>PyTorch</span><span>PostgreSQL</span><span>PySide6</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-label">JAVA / OOP</span>
+              <a href="https://github.com/arnur0921-debug/SDP-project" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+            <h3>SDP Project</h3>
+            <p>Учебный Java desktop-проект для работы с данными матчей, игроков и команд Counter-Strike 2.</p>
+            <ul class="project-points">
+              <li>Java + JavaFX / FXML</li>
+              <li>Работа с базой данных</li>
+              <li>Парсинг данных HLTV</li>
+              <li>Facade / Factory / Interfaces</li>
+              <li>Разделение логики на сервисы и модели</li>
+            </ul>
+            <div class="tags">
+              <span>Java</span><span>JavaFX</span><span>OOP</span><span>Design Patterns</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-label">UNITY / C#</span>
+              <a href="https://github.com/arnur0921-debug/Endless-Runner-2D" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+            <h3>Endless Runner 2D</h3>
+            <p>
+              Небольшая 2D endless runner игра на Unity, созданная для практики
+              C# и основных игровых механик.
+            </p>
+            <ul class="project-points">
+              <li>Player movement</li>
+              <li>Endless level generation</li>
+              <li>Obstacle system</li>
+              <li>Score system</li>
+              <li>Game over / restart</li>
+              <li>Basic UI</li>
+            </ul>
+            <div class="tags">
+              <span>Unity</span><span>C#</span><span>2D Physics</span><span>Game Development</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-kicker">НАВЫКИ</p>
+        <h2>Технологии</h2>
+        <div class="skills-grid">
+          <div class="skill-card"><h3>Programming</h3><p>Python · C# · C++ · Java · JavaScript</p></div>
+          <div class="skill-card"><h3>AI / Computer Vision</h3><p>PyTorch · ONNX Runtime · OpenCV · FAISS · Embeddings</p></div>
+          <div class="skill-card"><h3>Backend / Data</h3><p>FastAPI · REST API · SQL · PostgreSQL · SQLite · SQLAlchemy</p></div>
+          <div class="skill-card"><h3>Game / 3D</h3><p>Unity · Blender · UV · Texturing · Nodes · Basic Rigging / Animation</p></div>
+          <div class="skill-card"><h3>Web / Tools</h3><p>HTML · CSS · Git · UiPath</p></div>
+          <div class="skill-card"><h3>Languages</h3><p>Русский — native · Қазақша — native · English — B2</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <p class="section-kicker">КОНТАКТЫ</p>
+          <h2>Связаться со мной</h2>
+          <p>Открыт к junior-позициям, стажировкам и интересным проектам в software development, AI / Computer Vision и смежных направлениях.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:arnur0921@gmail.com">arnur0921@gmail.com</a>
+          <a href="https://github.com/arnur0921-debug" target="_blank" rel="noopener noreferrer">github.com/arnur0921-debug</a>
+          <a href="https://www.linkedin.com/in/arnur-shermatov-36977440b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Arnur Shermatov</span>
+      <span>Built with HTML, CSS & JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
